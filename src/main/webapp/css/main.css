@@ -1,0 +1,103 @@
+body{
+    background: url("../img/bg3.jpg") no-repeat;
+    background-size: cover;
+}
+.main_head{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 10%;
+    background: #FFFFFF;
+    border-bottom: #1A1A1A;
+}
+.logo{
+    position: absolute;
+    left: 2%;
+    top: 0;
+    width: 220px;
+    height: 90px;
+}
+.logo img{
+    width: 200px;
+    height: 90px;
+
+
+}
+.top_up{
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    font-size: 36px;
+    letter-spacing: 5px;
+    margin-right: 20px;
+    font-family: "华文琥珀";
+    width: 50%;
+    height: 70%;
+    text-align: end;
+}
+.top_up img{
+    margin-right: 50px;
+}
+.main_down{
+    position: fixed;
+    top:12%;
+    left:4%;
+    width: 92%;
+    min-height: 85%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 25px rgba(0,122,255,0.9);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+}
+.tit1{
+    position: relative;
+    margin-left: 50px;
+    font-size: 44px;
+    font-family: 华文琥珀;
+    text-shadow: 0 0 25px rgba(255,0,0,1);
+    color: red;
+    cursor: pointer;
+
+}
+.shop_table{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 5%;
+    top: 10%;
+
+}
+.shop_table table{
+    position: relative;
+    width: 96%;
+    height: 85%;
+
+}
+.shop_table table td span.s2{
+    cursor: pointer;
+    font-size: 28px;
+    color: red;
+    text-shadow: 0 5px 25px rgba(255,255,255,1);
+    font-family: "华文琥珀";
+}
+.shop_table table td span.s1{
+    cursor: pointer;
+    font-size: 22px;
+    color: black;
+    text-shadow: 0 5px 30px rgba(255,255,255,1);
+    font-family: "华文琥珀";
+}
+/*鼠标移到图片上放大*/
+.shop_table table img{
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.shop_table table img:hover{
+    transform: scale(1.4);
+}

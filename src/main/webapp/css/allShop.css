@@ -1,0 +1,106 @@
+body{
+    background: #FFFFFF;
+}
+.main_head{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100px;
+    background: #FFFFFF;
+    border-bottom: #1A1A1A;
+}
+.logo{
+    position: absolute;
+    left: 2%;
+    top: 0;
+    width: 220px;
+    height: 90px;
+}
+.logo img{
+    width: 200px;
+    height: 90px;
+
+
+}
+.top_up{
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    font-size: 36px;
+    letter-spacing: 5px;
+    margin-right: 20px;
+    font-family: "华文琥珀";
+    width: 50%;
+    height: 70%;
+    text-align: end;
+}
+.top_up img{
+    margin-right: 50px;
+}
+.main_down{
+    position: absolute;
+    top:12%;
+    left:4%;
+    width: 92%;
+    min-height: 850px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 25px rgba(0,122,255,0.9);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+}
+#qbtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: red;
+    color: #FFFFFF;
+    width: 90%;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+
+}
+#qname{
+    cursor: pointer;
+    font-size: 22px;
+    color: black;
+    text-shadow: 0 5px 30px rgba(0,0,0,1);
+    font-family: "华文琥珀";
+}
+#qjg{
+    cursor: pointer;
+    font-size: 28px;
+    color: red;
+    text-shadow: 0 5px 25px rgba(255,0,0,1);
+    font-family: "华文琥珀";
+}
+.qtable td{
+    border-bottom: solid black 4px;
+    border-top: solid black 4px;
+}
+.qtable{
+    margin-top: 80px;
+    border-left: 0;
+    border-right: 0;
+}
+#qlb{
+    cursor: pointer;
+    font-size: 32px;
+    color: blue;
+    text-shadow: 0 5px 25px rgba(0,122,255,0.8);
+    font-family: "华文琥珀";
+}

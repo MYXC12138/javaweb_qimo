@@ -1,0 +1,134 @@
+.picture{
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+.mas_table{
+    float: left;
+    margin-left: 50px;
+}
+.mas_table table{
+    min-height: 400px;
+}
+
+.shopname h1{
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.shopname p{
+    font-size: 10px;
+    color: #FFFFFF;
+}
+.snum{
+    margin-left: 20px;
+    margin-top: 100px;
+
+}
+.snum span{
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+#gbtn{
+    padding: 10px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: red;
+    color: #FFFFFF;
+    width: 120px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+
+}
+#jgwc{
+    padding: 10px 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: #FFFFFF;
+    color: black;
+    width: 45%;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 10px;
+    margin-left: 20px;
+
+}
+.mainwdow{
+    position: relative;
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 1000px;
+    height: 400px;
+}
+/*地址输入框*/
+.cataddress input{
+ width: 100%;
+padding: 10px 20px;
+background: rgba(255, 255, 255, 0.2);
+outline: none;
+border: none;
+border-radius: 30px;
+border: 1px solid rgba(255, 255, 255, 0.5);
+border-right: 1px solid rgba(255, 255, 255, 0.2);
+border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+font-size: 16px;
+letter-spacing: 1px;
+color: #fff;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+margin-top: 30px;
+}
+.cataddress input::placeholder{
+    color: #FFFFFF;
+
+}
+.goods_num_wrap span{
+    width:24px;
+    height: 24px;
+    display: inline-block;
+    border:1px solid #999;
+    cursor: pointer;
+    text-align: center;
+}
+.goods_num_wrap input{
+    width:36px;
+    height: 26px;
+    text-align: center;
+    border:1px solid #999;
+    box-sizing: border-box;
+    border-right: none;
+    border-left:none;
+    outline: 0;
+}
+.goods_price{
+    color: #FFFFFF;
+    font-size: 22px;
+}
+.good_total{
+    color: red;
+    font-size: 40px;
+    font-family: 华文琥珀;
+    margin-top: 10px;
+}
+td{
+    color: #FFFFFF;
+}

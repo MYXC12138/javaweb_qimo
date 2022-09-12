@@ -1,0 +1,95 @@
+.container{
+    width:800px;
+    height:700px;
+    margin: 0 auto;
+}
+.cart_wrap{
+    width:800px;
+    height:600px;
+    overflow-y: scroll;
+    margin-top: 30px;
+}
+.cart_wrap .cart_table{
+    border: 1px dashed black;
+    width:100%;
+    height:100%;
+}
+.cart_wrap .cart_table th{
+    height:50px;
+
+    border-collapse: collapse;
+}
+.cart_wrap .cart_table td{
+
+    border-collapse: collapse;
+    text-align: center;
+}
+.img_wrap{
+    width:200px;
+    height:100px;
+    padding:10px 0;
+    box-sizing: border-box;
+}
+.img_wrap img{
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+.settle_bar{
+    margin:30px auto;
+    display: flex;
+    position:relative;
+}
+.settle_bar .check_all_wrap{
+    width:176px;
+    text-align: center;
+    font-weight: bold;
+}
+.goods_num_wrap span{
+    width:24px;
+    height: 24px;
+    display: inline-block;
+    border:1px solid #999;
+    cursor: pointer;
+}
+.goods_num_wrap input{
+    width:36px;
+    height: 26px;
+    text-align: center;
+    border:1px solid #999;
+    box-sizing: border-box;
+    border-right: none;
+    border-left:none;
+    outline: 0;
+}
+
+
+.total_money,.checked_num{
+    color:crimson;
+    font-weight: bold;
+}
+.settle_bar input[type='submit']{
+    position: absolute;
+    right:0;
+}
+.gwcbtn{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color: gray;
+    color: #FFFFFF;
+}
+.cart_top span{
+    font-size: 50px;
+    text-shadow: 5px 5px 50px rgba(0,122,255,1);
+    color: #FFFFFF;
+    font-family: 华文琥珀;
+}
+.total{
+    cursor: pointer;
+    font-size: 28px;
+    color: red;
+    text-shadow: 0 5px 25px rgba(255,0,0,0.9);
+    font-family: "华文彩云";
+}
